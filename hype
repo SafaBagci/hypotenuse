@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        double input1, input2, hypotenuse;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please enter first input:");
+        input1 = sc.nextDouble();
+
+        System.out.println("Please enter second input:");
+        input2 = sc.nextDouble();
+
+        hypotenuse = Math.sqrt(Math.pow(input1,2) + Math.pow(input2,2));
+
+
+        System.out.println("Hypotenuse is: " + hypotenuse );
+
+
+    }
+}
